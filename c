@@ -14,3 +14,14 @@ If you want to learn it than you can learn it without any knowledge abut compute
 let us leave it all and come to learn coading.
 
 
+BASIC STRUCTURE OF A PROGRAM --->>
+ 
+                              HELLO WORD PROGRAM 
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+printf("hello,word");
+}
+
