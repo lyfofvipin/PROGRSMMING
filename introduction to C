@@ -1,72 +1,38 @@
 Latest start Our C. 
-2
-​
-3
-First of all I will tell you that C is a high level language, which developed by Dennis Ritchie, in 1972, in AT and T's bell laboratory California 
-4
- 
-5
-                                            Now I will tell you about levels of language----->> 
-6
-                  We generally have two level of language-->
-7
+
+
+
+First of all I will tell you that C is a high level language,
+which developed by Dennis Ritchie, in 1972, in AT and T's bell laboratory California 
+Now I will tell you about levels of language----->> 
+We generally have two level of language-->
                                         LOW LAVEL            and       HIGH LAVEL 
-8
 A low level language->
-9
-                       To code in a low level language we have a good knowledge of hardwares because it is a Machine dependendent language.without a knowledge of hardware we coud't use a low level language.
-10
+                       To code in a low level language we have a good knowledge of hardwares 
+                       because it is a Machine dependendent language.
+                       without a knowledge of hardware we coud't use a low level language.
 High level language->
-11
-                      High level language is that language which does not depend on any hardware or we can say that a user does not need any knowledge of hardware because a high level language is developed that any user can use that without any knowledge of hardware I hope you understand what would I want to say by using these words 
-12
-​
-13
-That's the different thing that a low level language is easily understood by computer or we can say the machine but a high level language is easily understand by us that is why all the language which are consider in programming are in high level. 
-14
-​
-15
+                      High level language is that language which does not depend on any hardware.
+                      or we can say that a user does not need any knowledge of hardware.
+                      because a high level language is developed that any user can use that without any knowledge of hardware.
+                      I hope you understand what would I want to say by using these words 
+That's the different thing that a low level language is easily understood by computer.
+Or we can say the machine but a high level language is easily understand by us 
+that is why all the language which are consider in programming are in high level. 
 Now I will tell you something about some word which are already fixed for some purpose are known as keyword we have 32 keywords in C. 
-16
-​
-17
 Auto      double    int         struct      break      elss 
-18
 Long      switch    case        enuam       register   typedef 
-19
 Char      extern    return      union       const      float 
-20
 Short     unsigned  continue    four        signed     void 
-21
 Default   goto      Sizeof      Volatile    do         If
-22
 Static    while
-23
-​
-24
-​
-25
 Now I will tell you a lot talking about the characters of c 
-26
-​
-27
 Alphabets   A,B,C ......Z   or a, b, c........z 
-28
 Digits      .....-9,-8,-7,-6,-5,-4,-3,-2-1,0, 1, 2, 3, 4, 5, 6, 8, 9,...... 
-29
 Symbols   !  @  #  % ^  &  * ()  _  +  -  =  ;  :  '   "  ....... 
-30
-​
-31
 NOTE:-> 
-32
 we can we can use any kind of symbol in C language except with Dollar sign ($) this sign is not Allow in C language.
-33
-​
-34
 Now I will tell you where we can write C program--> 
-35
-​
-36
-I advise you to use code block either in Windows and Linux turbo C also used as compiler in which we can write our c program. But if you are using Linux then builder in the best choice or we can say a best platform to write your program in Linux we use  a command gcc name of programc.c   and a command  ./a.out to run our program. 
-37
+I advise you to use code block either in Windows and Linux turbo C also used as compiler in which we can write our c program.
+But if you are using Linux then builder in the best choice or we can say a best platform to write your program. 
+In Linux we use  a command gcc name of programc.c   and a command  ./a.out to run our program. 
