@@ -36,3 +36,138 @@ Now I will tell you where we can write C program-->
 I advise you to use code block either in Windows and Linux turbo C also used as compiler in which we can write our c program.
 But if you are using Linux then builder in the best choice or we can say a best platform to write your program. 
 In Linux we use  a command gcc name of programc.c   and a command  ./a.out to run our program. 
+
+structure of a program==>>
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+printf("hello word");
+getch();
+}
+
+
+This program arising a lot of questions in your mind 
+
+well these questions are arise in my mind also  that 
+
+what is  #include ?
+
+and all the things written in the program. 
+
+
+Now I will tell you everything about it clearly==>>
+ 
+The symbol (#) known as hash or called  a preprocessor  in c. 
+And the written word (include) with symble is called an derivative. 
+
+  When both include and hash(#) combine they form a preprocessor derivative. 
+which connects a library to our programe. And the library name which we connect to a program is <stdio.h>.
+
+ 
+Now I will tell you what is a C librarie==>
+ A c librari in actual it is a file contains some function of c which are used by us in a program.
+ we even create our own c library by using the extension .h.
+
+
+This library will contain the 
+
+printf("") functions These function are contained by this library.
+and the function void main is also from the same library.
+
+
+The first function printf()  ==>
+
+This function is used while we want to print something on the screen As our first program that we print hello world.
+we write hello world into function printf() to print hello.
+
+
+One more thing about the program the semi colon (;) which is used in the last of each and every line
+in a program is known as Terminator in C language it is used at the end of every statement.
+
+ 
+while we finish our program or start our program we use a pair of curly brackets {} affter main function. 
+this pare which tell that our main
+function is being start and at end it tell that our function is over. 
+
+
+Now you will see that one more library is connected by us that is <conio.h> this library with 
+contain the clrscr() and getch() function 
+
+now I will tell you the use of these function.
+ 
+ 
+ 
+The function clrscr() is use to clear the screen. 
+If you don't understand what is this clear screen then don't get nervous because I will tell you about it in other programs. 
+And this the last function getch()==>
+
+Is used to store our result if we do not use this function then our .exe extension of program does not so any result. 
+I hope now you will understand everything about our first program the hello world.
+You still you have any problem then you can contact us. 
+
+
+I am writing some questions you have to go to code them. 
+Questions 
+1 write a program to show        i  love my country. 
+2 write a program which show     early to bed early to rise makes a man healthy wealthy and wise.
+3 write a program which show      my name is vipin 
+                                  i belong to india
+
+answers
+1  
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+printf("i  love my country ");
+getch();
+}
+
+
+
+2
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+printf("early to bed early to rise makes a man healthy wealthy and wise.");
+getch();
+}
+
+
+3
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+printf("my name is vipin \n i belong to india");
+getch();
+}
+
+OR
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+printf("my name is vipin");
+printf("i belong to india");
+getch();
+}
+
+As you can see in 3rd question I use \n  what's this combination is used to print something from a new line. 
+Is combination are called escape sequence Many more combination are there like. 
+\t   
+\v 
+\b 
+\a 
+You can use any sequence
+to make your program better or to give a special effect to your program you can try all these by you yourself. 
