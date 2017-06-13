@@ -1,1 +1,0 @@
-LET US LERN programing.
