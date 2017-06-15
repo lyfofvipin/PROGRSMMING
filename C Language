@@ -271,3 +271,21 @@ now I will tell complit function again
 
 in Starting we write scanf()  then use invited commas then we use symbol (&)  and then use comma 
 and then write the name of our variable which we define above.
+Now we will start how to take a number and print in a program .
+
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+clrscr();
+int a;
+printf(" enter a number \n ");
+scanf("%d",&a); 
+printf(" entered number is %d \n ",a);
+getch();
+}
+As you can see we again use %d in our program in function printf("%d",a) ;
+One more time you will notice that we does not use the symbol (&) hear 
+because  here the function will automatically 
+find the location of     a     and print the number  on the screen.
