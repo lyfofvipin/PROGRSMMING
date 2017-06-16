@@ -326,3 +326,20 @@ printf(" entered character is %c \n ",a);
 getch();
 }
 As you can see we again use %c in our program in function printf("%c",a).
+
+
+Now we will start how to take a double number and print a double number in a program .
+
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+clrscr();
+double a;
+printf(" enter a double number \n ");
+scanf("%lf",&a); 
+printf(" entered double number is %lf \n ",a);
+getch();
+}
+As you can see we again use %lf in our program in function printf("%lf",a) ;
