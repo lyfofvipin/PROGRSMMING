@@ -1,5 +1,5 @@
-    // Printing cos(x) serese.
-    // 1-(x^2/2!)+(x^4/4!)-(x^6/6!)+(x^6/6!)+(x^6/6!)-(x^8/8!)...
+//Printing cos(x) serese:-
+  //  1-(x^2/2!)+(x^4/4!)-(x^6/6!)+(x^6/6!)+(x^6/6!)-(x^8/8!)...
     #include<stdio.h>
     int main()
     {  
@@ -7,7 +7,7 @@
         double result;
 
         double serese ( int ,int );
-        int power ( int );
+
         printf("Enter value of x : ");
         scanf("%d",&x);
 
@@ -22,15 +22,14 @@
     {
         int i,pow,fact,number;
 
-        int power( int );
         int factorial( int );
-
+        int power( int , int );
         double res = 0.0;
         for ( i = 0 ; i <= n ; i++ )
         {
             number = 2*i ; // To bring odd number every time
 
-            pow = power(number);
+            pow = power(x,number);
 
             fact = factorial(number);
 
@@ -42,11 +41,11 @@
         return res;
     }
 
-    int power ( int x )
+    int power ( int x , int n)
     {
         int i,pow = 1;
 
-        for ( i = 1 ; i <= x ; i++ )
+        for ( i = 1 ; i <= n ; i++ )
             pow = pow*x;
 
         return pow;
